@@ -35,7 +35,7 @@ const Home = () => {
             transition={{ duration: 2, repeat: Infinity }}
             className="text-6xl md:text-7xl font-black bg-gradient-to-r from-purple-300 to-blue-300 bg-clip-text text-transparent mb-6"
           >
-            Welcome to VAAD AI-0G
+            Welcome to Neuraz
           </motion.h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mb-12 leading-relaxed">
             Your ultimate AI-powered trading assistant for DeFi and SocialFi. Unlock real-time insights, whale intelligence, and a thriving trading community in a decentralized future.
