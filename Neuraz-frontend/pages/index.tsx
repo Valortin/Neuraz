@@ -97,7 +97,7 @@ const Home = () => {
 
       <footer className="w-full p-6 bg-white/5 backdrop-blur-xl text-center border-t border-white/10 mt-auto">
         <p className="text-gray-400">
-          &copy; 2025 VAAD AI-0G.
+          &copy; 2025 Neuraz.
         </p>
       </footer>
     </div>
