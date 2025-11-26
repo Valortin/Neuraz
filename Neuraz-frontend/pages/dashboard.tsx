@@ -48,7 +48,7 @@ export default function Dashboard() {
       {/* Header */}
       <header className="w-full p-6 bg-white/5 backdrop-blur-xl shadow-2xl flex justify-between items-center fixed top-0 z-10 border-b border-white/10">
         <h1 className="text-3xl font-black bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
-          VAAD AI-0G Dashboard
+          Neuraz Dashboard
         </h1>
       </header>
 
