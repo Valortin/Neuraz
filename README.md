@@ -1,7 +1,3 @@
-Here is your content rewritten cleanly in **README.md format** (Markdown-ready, properly structured, and professional):
-
----
-
 # **Neuraz**
 
 Neuraz is a cutting-edge, **AI-powered DeFi Intelligence + SocialFi engine** built on **Polygon**, the fastest and most cost-efficient Ethereum Layer-2. It delivers:
