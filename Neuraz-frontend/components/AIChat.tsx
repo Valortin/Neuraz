@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const AIChat = () => {
   return (
-    <motion.section 
+    <motion.section
       initial={{ opacity: 0, x: 50 }}
       animate={{ opacity: 1, x: 0 }}
       className="mb-8"
@@ -11,7 +11,9 @@ const AIChat = () => {
         AI Strategy Advisor
       </h2>
       <input placeholder="Ask AI: Best ETH trade?" className="w-full p-4 bg-white/10 rounded-xl" />
-      <p className="mt-4 text-gray-300">AI: "Bullish on ETH—stake for 5% yield."</p>
+      <p className="mt-4 text-gray-300">
+        AI: {"\""}Bullish on ETH—stake for 5% yield.{"\""}
+      </p>
     </motion.section>
   );
 };

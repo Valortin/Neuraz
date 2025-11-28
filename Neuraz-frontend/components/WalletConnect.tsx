@@ -1,4 +1,3 @@
-// components/WalletConnect.tsx
 "use client";
 
 import { useState } from 'react';
@@ -12,8 +11,8 @@ export default function WalletConnect() {
       try {
         const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
         setAddress(accounts[0]);
-      } catch (err) {
-        alert('User rejected');
+      } catch {
+        alert('User rejected request');
       }
     } else {
       alert('Install MetaMask!');
@@ -23,7 +22,9 @@ export default function WalletConnect() {
   return (
     <motion.div>
       {address ? (
-        <p className="text-green-400">Connected: {address.slice(0,6)}...{address.slice(-4)}</p>
+        <p className="text-green-400">
+          Connected: {address.slice(0, 6)}...{address.slice(-4)}
+        </p>
       ) : (
         <button
           onClick={connect}

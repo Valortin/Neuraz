@@ -1,8 +1,7 @@
-// app/api/storage/route.ts   (or pages/api/storage.ts)
-import { ZgFile } from '@0glabs/0g-ts-sdk/lib.esm/file';
-
 export async function GET() {
-  const file = new ZgFile(/* … */);
-  // …do work
+  // If you don't use `file` right now, just remove the line
+  // const file = new ZgFile(/* … */);
+
+  // Placeholder – replace with your actual logic later
   return Response.json({ ok: true });
 }

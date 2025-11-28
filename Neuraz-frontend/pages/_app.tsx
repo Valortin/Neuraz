@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import '../utils/polyfill';
+//import '../utils/polyfill';
 import type { AppProps } from 'next/app';
 import { WagmiProvider, createConfig, http } from 'wagmi';
 import { arbitrum, avalanche, mainnet, polygon } from 'wagmi/chains';
