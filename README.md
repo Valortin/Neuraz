@@ -20,13 +20,6 @@ By leveraging Polygon’s low fees and instant finality, Neuraz makes institutio
 
 ---
 
-## **Smart Contract Deployment (Polygon Mainnet)**
-
-
-`0xe9E6783861f586AfE6f3f70E51D1ee5642FA593E`
-
----
-
 # **What Neuraz Does**
 
 ### 🔥 **Real-Time Market Intelligence**
