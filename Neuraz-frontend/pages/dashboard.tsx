@@ -1,4 +1,3 @@
-// pages/dashboard.tsx
 "use client";
 
 import { motion } from 'framer-motion';

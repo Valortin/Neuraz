@@ -16,7 +16,7 @@ const PortfolioTracker = () => {
           <p className="text-2xl font-bold">12.5 ETH</p>
           <p className="text-green-400">+4.2% APY</p>
         </div>
-        {/* Add 3 more stats */}
+        {/*  */}
       </div>
     </motion.section>
   );

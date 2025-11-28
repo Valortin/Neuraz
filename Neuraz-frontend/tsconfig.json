@@ -13,7 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",  // ← ADD THIS LINE (enables your @/* paths)
+    "baseUrl": ".", 
     "paths": {
       "@components/*": ["components/*"],
       "@pages/*": ["pages/*"],

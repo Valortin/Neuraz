@@ -1,4 +1,3 @@
-// components/NFTMarket.tsx
 import { motion } from 'framer-motion';
 
 const NFTMarket = () => (
