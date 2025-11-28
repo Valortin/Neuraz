@@ -11,18 +11,18 @@ Neuraz is a cutting-edge, **AI-powered DeFi Intelligence + SocialFi engine** bui
 By leveraging Polygon’s low fees and instant finality, Neuraz makes institutional-grade DeFi alpha accessible to everyone—positioning itself as a flagship AI × Crypto startup for Polygon’s VC ecosystem.
 
 ---
-
+## Smart contract deployed to the MAINNET: 0xe9E6783861f586AfE6f3f70E51D1ee5642FA593E
 ## **Repository**
 
 **GitHub:** [https://github.com/Valortin/Neuraz](https://github.com/Valortin/Neuraz)
-**Live Demo:** [https://neuraz.app](https://neuraz.app)
+**Live Demo:** https://neuraz-theta.vercel.app/
 **Creator:** Valortin
 
 ---
 
 ## **Smart Contract Deployment (Polygon Mainnet)**
 
-Example (update with actual address):
+
 `0xe9E6783861f586AfE6f3f70E51D1ee5642FA593E`
 
 ---
