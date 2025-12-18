@@ -1,5 +1,9 @@
 "use client";
 
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { useAccount, useChainId } from 'wagmi';
+import { polygon } from 'wagmi/chains';
+
 import { motion } from 'framer-motion';
 import { Line } from 'react-chartjs-2';
 import {
