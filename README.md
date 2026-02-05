@@ -51,6 +51,7 @@ Direct Polygon DEX + aggregator integrations for frictionless trading.
 # **The Problem Neuraz Solves**
 
 Retail traders operate blind—unable to see whale moves and overpaying on centralized platforms.
+
 Neuraz fixes this by offering:
 
 * Sub-second decentralized intelligence
@@ -176,7 +177,7 @@ Turning Polygon into **the smartest trading brain in crypto.**
 git clone https://github.com/Valortin/Neuraz.git
 cd Neuraz
 npm install
-cp .env.example .env.local   # add your keys
+cp .env.example .env.local  
 npm run dev
 ```
 
@@ -193,14 +194,6 @@ For major feature requests, open an issue first.
 # **License**
 
 MIT License — see `LICENSE`
-
----
-
-# **Contact**
-
-**Creator:** Valortin
-**Twitter/X:** @yourhandle
-**Discord:** valortin
 
 ---
 
