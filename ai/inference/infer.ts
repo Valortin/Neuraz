@@ -1,30 +1,22 @@
-{
-  "models": [
-    {
-      "name": "risk_scoring_model",
-      "type": "neural_network",
-      "framework": "pytorch",
-      "description": "Predicts risk score for DeFi trades based on volume, price, and whale activity.",
-      "input_features": ["price", "volume", "whale_score"],
-      "output": "risk_score (0-1)",
-      "trained_on": "sample_defi_data.csv",
-      "architecture": {
-        "layers": [
-          {"type": "Linear", "in_features": 3, "out_features": 64},
-          {"type": "ReLU"},
-          {"type": "Linear", "in_features": 64, "out_features": 1},
-          {"type": "Sigmoid"}
-        ]
-      },
-      "path": "../models/risk_scoring_model.pth",
-      "composable": true 
-    },
-   
-    {
-      "name": "trade_signal_model",
-      "type": "placeholder",
-      "description": "Future model for generating buy/sell signals.",
-      "architecture": {}  
-    }
-  ]
+import * as tf from '@tensorflow/tfjs-node';
+import fs from 'fs/promises';
+import path from 'path';
+
+// Load model from JSON (convert PyTorch to TF.js or use ONNX later)
+async function loadModel(modelId: string) {
+  // For now, mock load; in real, use tf.loadLayersModel()
+  const modelPath = path.join(__dirname, '../training/whale_model.json'); // Export from Python
+  // Assume converted model
+  return tf.sequential(); // Placeholder
 }
+
+export async function inferWhaleIntent(features: number[]): Promise<number> {
+  const model = await loadModel('whale_predictor');
+  const input = tf.tensor2d([features]);
+  const output = model.predict(input) as tf.Tensor;
+  const score = (await output.data())[0];
+  return score; // Intent score 0-1
+}
+
+// Similar for risk scorer
+// Export to backend: import { inferWhaleIntent } from '../../ai/inference/infer';
