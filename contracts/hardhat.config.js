@@ -57,8 +57,6 @@ module.exports = {
     apiKey: {
       polygonAmoy: process.env.POLYGONSCAN_API_KEY || "",
       polygon: process.env.POLYGONSCAN_API_KEY || "",
-      // Keep old ones if you still verify on 0G
-      // og_mainnet: process.env.ETHERSCAN_API_KEY || "",
     },
     customChains: [
       {
